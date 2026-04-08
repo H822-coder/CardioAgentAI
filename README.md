@@ -8,12 +8,12 @@ A cardiovascular risk assessment web app using the Framingham Risk Score model. 
 ## Project Structure
 
 ```
-CardioCheck-Grinova-2025/
+CardioAgentAI/
 ├── backend/        # Flask API — risk scoring logic
 │   ├── app.py
-│   └── venv/
-├── frontend/       # Node.js UI
-│   └── ...
+│   └── framingham.csv
+├── frontend/       # index.html UI
+│   └── index.html
 └── README.md
 ```
 
@@ -22,7 +22,6 @@ CardioCheck-Grinova-2025/
 ## Prerequisites
 
 - Python 3.8+
-- Node.js (via NVM recommended)
 - `venv` module available
 
 ---
@@ -49,7 +48,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-> Backend runs on **http://localhost:5000**
+backend run on **http://127.0.0.1:5500**
 
 ---
 
@@ -68,7 +67,7 @@ npm install
 npm run dev
 ```
 
-> Frontend runs on **http://localhost:5173** (or as configured)
+> Frontend runs on **http://127.0.0.1:5500** (or as configured)
 
 ---
 
