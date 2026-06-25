@@ -70,7 +70,37 @@ npm run dev
 > Frontend runs on **http://127.0.0.1:5500** (or as configured)
 
 ---
+## Procedure to Run the Project
 
+1. Download the Project Files
+   Clone or download all the files available in the repository and extract them into a single project folder.
+2. Set Up the Prerequisites
+   Install all required dependencies, software, and packages mentioned in the project documentation (such as Node.js, Python
+   libraries, database setup, etc.).
+3. Run the Backend
+   Navigate to the backend directory and start the backend server first to establish API and database connectivity.
+   
+⏳ Training AI model …
+✅ Model trained — AUC: 0.850
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+⏳ Training AI model …
+✅ Model trained — AUC: 0.850
+ * Debugger is active!
+ * Debugger PIN: 225-938-927
+   
+5. Run the Frontend
+   Open the frontend directory and start the frontend application. Once the backend is running successfully, the frontend will
+   function properly and connect without issues.
+
+6. Access the Application
+   Open the provided local URL (for example: localhost) in your browser to use the project.
+
+   
 ## How It Works
 
 The app calculates a **10-year cardiovascular risk percentage** using the Framingham Risk Score, which takes into account:
