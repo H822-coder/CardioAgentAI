@@ -73,12 +73,10 @@ npm run dev
 ## Procedure to Run the Project
 
 1. Download the Project Files
-   Clone or download all the files available in the repository and extract them into a single project folder.
+   
 2. Set Up the Prerequisites
-   Install all required dependencies, software, and packages mentioned in the project documentation (such as Node.js, Python
-   libraries, database setup, etc.).
+   
 3. Run the Backend
-   Navigate to the backend directory and start the backend server first to establish API and database connectivity.
    
 ⏳ Training AI model …
 ✅ Model trained — AUC: 0.850
@@ -92,6 +90,7 @@ Press CTRL+C to quit
 ✅ Model trained — AUC: 0.850
  * Debugger is active!
  * Debugger PIN: 225-938-927
+   
    
 5. Run the Frontend
   <img width="1920" height="1011" alt="Screenshot 2026-06-25 103716" src="https://github.com/user-attachments/assets/53eac191-667c-4e59-a186-bd34784d8015" />
