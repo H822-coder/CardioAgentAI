@@ -94,8 +94,9 @@ Press CTRL+C to quit
  * Debugger PIN: 225-938-927
    
 5. Run the Frontend
-   Open the frontend directory and start the frontend application. Once the backend is running successfully, the frontend will
-   function properly and connect without issues.
+  <img width="1920" height="1011" alt="Screenshot 2026-06-25 103716" src="https://github.com/user-attachments/assets/53eac191-667c-4e59-a186-bd34784d8015" />
+
+
 
 6. Access the Application
    Open the provided local URL (for example: localhost) in your browser to use the project.
